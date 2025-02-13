@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Notable&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+:root {
+  font-size: 16px;
+  line-height: 1.5;
+
+  background-color: #fff;
+  color: #000;
+
+  --darkGreen: #162521;
+  --lightGreen: #4e7370;
+  --limeGreen: #4BB039;
+  --orange: #E77C40;
+  --peach: #fff6ef;
+  --red: #F62327;
+  --gray: #737373;
+  --babyBlue: #B0C4E3;
+}
+
+#root {
+  min-height: 100% !important;
+}
+
+body {
+  height: 100dvh;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+h2 {
+  font-size: 1.9rem;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+h4 {
+  font-size: 1.3rem;
+}
+
+button,
+select {
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+}
