@@ -17,7 +17,7 @@ Next add a .env file to both the web project and api project.
     DB_USER=[MYSQL USER]
     DB_PASSWORD=[MYSQL PASSWORD]
     DB_PORT=[MYSQL PORT]
-    JWT_TOKEN_SECRET=96f548c21923026ff52a95e9a7c0e76e9da333653ccb69dec3566a56a7e4b8f7
+    JWT_TOKEN_SECRET={JWT_TOKEN_HERE}
 
 #### Api db/index.js
     export const pool = createPool({
